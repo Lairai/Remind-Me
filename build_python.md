@@ -31,15 +31,15 @@
    ```
 1. Download the latest 3.8.x release from [Python Downloads page](https://www.python.org/downloads/).
     ```shell script
-    wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tar.xz
+    wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tar.xz
     ```
 1. Extract the tar ball
     ```shell script
-    tar -xf Python-3.8.0.tar.xz
+    tar -xf Python-3.8.1.tar.xz
     ```
 1. Run the configure script to make sure all of the dependencies on your system are present. For Python packages such as mod_wsgi, add the option --enable-shared.
     ```shell script
-    cd Python-3.8.0
+    cd Python-3.8.1
     ./configure --enable-optimizations
     ```
 1. Start the Python build process. The j parameter specifies the number of CPU cores. To find your core count, run the nproc command.
